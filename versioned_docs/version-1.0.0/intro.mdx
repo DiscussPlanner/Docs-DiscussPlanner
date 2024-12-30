@@ -1,0 +1,54 @@
+---
+title: Introduction
+---
+
+# Introduction
+
+## Quick Start
+フロントエンド用サーバーとバックエンドサーバーを起動させる必要があります。
+
+### backendサーバーの起動
+1. 該当ディレクトリへ移動
+
+    ```powershell
+    cd dev\backend
+    ```
+
+2. 仮想環境を同期 & 適用<br />
+    a. 同期
+    ```powershell
+    rye sync
+    ```
+    b. 仮想環境をアクティベート
+    ```powershell
+    .venv\Scripts\Activate
+    ```
+
+3. バックエンドサーバーを起動
+
+    ```powershell
+    python main.py
+    ```
+
+### frontendサーバーの起動
+1. 該当ディレクトリへ移動
+
+    ```powershell
+    cd dev\frontend
+    ```
+
+2. パッケージのインストール
+
+    ```powershell
+    npm install
+    ```
+
+3. フロントエンドサーバーを起動
+
+    ```powershell
+    npm start
+    ```
+
+4. ブラウザでアクセス
+
+    [http://localhost:3000](http://localhost:3000) にアクセスする事でフロントエンドサーバーにアクセスできます。
