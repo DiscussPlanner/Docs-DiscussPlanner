@@ -47,10 +47,10 @@ const config = {
 					lastVersion: 'current',
 					versions: {
 						current: {
-							label: 'Development(1.1.0)',
+							label: 'Development(0.2.0)',
 						},
-						'1.0.0': {
-							label: '1.0.0',
+						'0.1.0': {
+							label: '0.1.0',
 						},
 					},
           sidebarPath: './sidebars.js',
