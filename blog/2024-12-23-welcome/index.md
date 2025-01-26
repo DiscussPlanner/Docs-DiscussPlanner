@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [nogikun, BPS-sys, Seinaaaaa, rikuu123]
+authors: [nogikun, BPS-sys, Seinaaaaa, rikuu123, yukihito-jokyu, paccyo]
 tags: [hello, docusaurus]
 ---
 

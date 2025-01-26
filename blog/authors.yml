@@ -34,3 +34,21 @@ rikuu123:
   page: true
   socials:
     github: rikuu123
+
+yukihito-jokyu:
+  name: yukihito-jokyu
+  title: Student in the AI Strategy course at IPUT
+  url: https://github.com/yukihito-jokyu
+  image_url: https://github.com/yukihito-jokyu.png
+  page: true
+  socials:
+    github: yukihito-jokyu
+
+paccyo:
+  name: paccyo
+  title: Student in the AI Strategy course at IPUT
+  url: https://github.com/paccyo
+  image_url: https://github.com/paccyo.png
+  page: true
+  socials:
+    github: paccyo
