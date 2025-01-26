@@ -15,13 +15,23 @@ title: Introduction
 
 2. サーバーの起動
 
+    Dockerが起動している状態（デーモンが起動されている状態）で以下のコマンドを実行する事でサーバーを起動させる事ができます。
+    システムの構成は [こちら](./仕様書/system_structure) を参照してください。
+    ```powershell
+    docker-compose --profile langfuse up
+    ```
+
+    :::note
+
+    最低限のサーバーを起動させる場合は以下のコマンドを実行してください。
     ```powershell
     docker-compose up
     ```
+    :::
 
 4. ブラウザでアクセス
 
-    [http://localhost:80](http://localhost:80) にアクセスする事でアプリケーションサーバーにアクセスできます。
+    [http://localhost:80](http://localhost:80) にアクセスする事でアプリケーション(フロントエンドサーバー)にアクセスできます。
 
 ## サーバーの停止
 以下のコマンドを実行し、サーバーを停止させてください。

@@ -1,0 +1,25 @@
+---
+title: GitHubのBranchに関するルール
+---
+
+# GitHubのBranchに関するルール
+---
+
+## Branchs
+### 1. main
+マスターブランチ。バージョンリリースする際のみ変更。
+
+### 2. developmentブランチ
+次リリース用の開発ブランチ。親をmainとする。
+
+### 3. featureブランチ
+開発中のdevelopmentブランチに対して、新たに機能追加する際に用いる作業ブランチ。
+親はdevelopmentブランチ
+
+
+## 命名規則
+
+|branchs|命名規則|備考|
+|:-:|:-|:-|
+|development|development/`version`||
+|feature|feature/`version`/`機能名`|featureブランチの`version`は親（developmentブランチ）のバージョン番号を引き継ぐ|
