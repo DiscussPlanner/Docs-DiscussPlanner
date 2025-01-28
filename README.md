@@ -1,4 +1,8 @@
 # Docs-DiscussPlanner
+[![Docusaurus](https://img.shields.io/badge/Docusaurus-2E8555?style=for-the-badge&logo=docusaurus&logoColor=white)](https://discussplanner.netlify.app/)  
+[![Netlify Status](https://api.netlify.com/api/v1/badges/57eb4dea-9994-45f4-9e97-6a9026413134/deploy-status)](https://app.netlify.com/sites/discussplanner/deploys)  
+
+
 https://github.com/BPS-sys/DiscussPlanner の 開発者用ドキュメント
 
 # Website
